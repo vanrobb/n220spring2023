@@ -9,7 +9,7 @@ function setup(){
     ellipse(475, 400, 600,700 );
     ellipse(440, 400, 600,750 );
     ellipse(410, 400, 600,785 );
-    ellipse(400, 400, 600,785 );
+    ellipse(400, 400, 600,780 );
     ellipse(400, 390, 600,780 );
     beginShape();
     curveVertex(300, 755);
