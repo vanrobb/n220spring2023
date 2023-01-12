@@ -1,6 +1,7 @@
 function setup(){
     createCanvas(800,800);
-    
+}
+function draw(){ 
     fill("#558392");
     noStroke();
     circle(400,400,775);
