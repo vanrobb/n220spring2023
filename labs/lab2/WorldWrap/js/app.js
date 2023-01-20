@@ -10,12 +10,13 @@ function setup(){
 function draw(){
     //make it so circle moves to left by changing x value
     x+=xSpeed;
-    //overwrite old circles by recalling background
-    background(255);
+    //delete old circle by overlaying background
+    background(250);
     //create circle at x,y
+    fill(126, 242, 159);
     circle(x,y,50);
-    //if x value is at or greater 800-radius of circle move to most left part of the screen + radius
-    if(x>=775){
-        x=25;
+    //if x value is at or greater than 800px move the circle to x=0px
+    if(x>=800){
+        x=0;
     }
 }
