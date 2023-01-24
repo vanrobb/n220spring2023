@@ -1,10 +1,13 @@
+/*
+Algorithm:
+Create a variable representing the x position of the circle and have that incremently increase by 5 every draw sequence. This will move the ball 5*60 pixels a second. When the value of x reaches the furthest x value (800) the x value of the circle will reset and go to 0.
+*/
 //create variables for start position of circle
 let x = 100;
 let y = 100;
 //create variables for speed of circle set to 5
 let xSpeed = 5;
 function setup(){
-    //createcanvas
     createCanvas(800, 600)
 }
 function draw(){

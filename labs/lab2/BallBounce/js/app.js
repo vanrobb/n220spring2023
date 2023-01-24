@@ -1,3 +1,7 @@
+/*
+Algorithm:
+Find a random place for the ball to start. Find a random color for the ball to start. Create radius and diameter variables to easily be able to change the size of the ball. Set the speed of the ball to move to the right and down every draw sequence. If the edge of the ball touches an x or y boundary reflect the x or y speed to create a bounce off effect, also change the color of the ball to a new random color.
+*/
 //find random integer value for start position of ball
 let x=Math.floor(Math.random()*776);
 let y=Math.floor(Math.random()*576);
