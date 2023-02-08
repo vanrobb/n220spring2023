@@ -4,12 +4,11 @@ function randColor(){
     let g=Math.floor(Math.random()*256);
     let b=Math.floor(Math.random()*256);
     console.log(r,g,b);
-    return r,g,b;
+    return {r,g,b};
 }
 
 //assign that random colors rgb values to variable named rgb
 let rgb=randColor();
-
 //create a function called noRed with an input named c
 function noRed(c){
     //set red value to 0 in function
@@ -25,7 +24,7 @@ function setup(){
 
 function draw(){
     //create a fill in the draw function calling noRed and the color from the rgb values
-    fill(noRed(color(rgb)));
+    fill(noRed(color(rgb.r,rgb.g,rgb.b)));
     //draw a circle to see test
     circle(400,400,400);
 }
