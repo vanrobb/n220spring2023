@@ -28,7 +28,7 @@ element.style.paddingRight="1%";
 element.style.fontFamily="'Verdana', sans-serif";
 element.style.fontSize="2em";
 element.style.alignItems="center";
-element.style.color="#D1D1D1"
+element.style.color="#D1D1D1";
 });
 
 //Create Variables for each ids
