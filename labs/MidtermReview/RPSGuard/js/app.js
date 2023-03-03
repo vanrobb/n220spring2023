@@ -115,13 +115,13 @@ if(num<3){
 else if(num==3&&scoreValue>0){
     WoLt.style.color="#deb41b";
     WoLt.innerHTML="You guarded this round and lost a point";
-    scoreValue-=1;
+    scoreValue-=0.5;
     score.innerHTML=scoreValue;
 }
 //If player chooses guard but has no points to use guard
 else{
     WoLt.style.color="#ab3333";
-    WoLt.innerHTML="You need a point in order to guard";
+    WoLt.innerHTML="You need half a point in order to guard";
 }
 }
 
