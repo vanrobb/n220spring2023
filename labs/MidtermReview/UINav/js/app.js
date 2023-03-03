@@ -66,6 +66,12 @@ s.onclick= function(){ChangeColor(s,sColor)};
 //When one of the divs is clicked change its color and make text bold; if the color has already been changed change it back to original color
 function ChangeColor(button, color){
     if(button.style.backgroundColor==color){
+        o.style.backgroundColor=oColor;
+        tw.style.backgroundColor=twColor;
+        th.style.backgroundColor=thColor;
+        fo.style.backgroundColor=foColor;
+        fi.style.backgroundColor=fiColor;
+        s.style.backgroundColor=sColor;
         button.style.backgroundColor="#FF7F50";
         button.style.fontWeight="bold";
     }
